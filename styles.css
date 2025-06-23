@@ -31,7 +31,7 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
-@media(max-width:500px){
+@media(max-width:1000px){
   .container{
     display:flex;
     flex-direction:column;

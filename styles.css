@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template: 1fr 2fr/ 1fr 1fr;
+  text-align: center;
+  height: 100vh;
+  width :100vw;
+  column-gap: 10px;
+}
+
+.dice {
+  text-align: center;
+}
+
+body {
+  background-color: #FFF0D1;
+}
+
+h1 {
+  grid-column: span 2;
+  font-family: "Lacquer", system-ui;
+  font-weight: 800;
+  font-size: 5rem;
+  font-style: normal;
+  color:#664343;
+}
+
+p {
+  color: #3B3030;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+}
+
+@media(max-width:500px){
+  .container{
+    display:flex;
+    flex-direction:column;
+  }
+}
